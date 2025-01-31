@@ -13,6 +13,8 @@ const config = {
   projectName: 'econ211',
   trailingSlash: false,
 
+  deploymentBranch: "gh-pages",
+
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
