@@ -6,14 +6,16 @@ const config = {
   title: '📈 ECO 211',
   favicon: 'img/economics_logo.svg',
 
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://econ211.erickzagal.com',
   baseUrl: '/',
 
-  organizationName: 'facebook',
-  projectName: 'docusaurus',
+  organizationName: 'ezagal1004',
+  projectName: 'econ211',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+
 
   i18n: {
     defaultLocale: 'en',
