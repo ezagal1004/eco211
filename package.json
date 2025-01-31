@@ -7,14 +7,15 @@
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
-    "write-heading-ids": "docusaurus write-heading-ids"
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "deploy-gh": "docusaurus deploy",
+    "deploy": "GIT_USER=ezagal1004 npm run deploy-gh"
   },
   "dependencies": {
-    "@docusaurus/core": "3.7.0",
+    "@docusaurus/core": "3.7.0", 
     "@docusaurus/preset-classic": "3.7.0",
     "@docusaurus/theme-mermaid": "^3.7.0",
     "@docusaurus/theme-search-algolia": "^3.7.0",
