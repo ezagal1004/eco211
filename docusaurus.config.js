@@ -6,11 +6,11 @@ const config = {
   title: '📈 ECO 211',
   favicon: 'img/economics_logo.svg',
 
-  url: 'https://econ211.erickzagal.com',
+  url: 'https://eco211.erickzagal.com',
   baseUrl: '/',
 
   organizationName: 'ezagal1004',
-  projectName: 'econ211',
+  projectName: 'eco211',
   trailingSlash: false,
 
   deploymentBranch: "gh-pages",
