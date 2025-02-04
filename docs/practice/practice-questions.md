@@ -126,4 +126,42 @@ These practice questions are from the lecture slides.
 
 ---
 
+<details>
+<summary><strong>📈 Chapter 6: Macroeconomics - The Big Picture</strong></summary>
+
+<br/>
+
+<Quiz 
+  question="If a country’s imports are $1.2 billion and exports are $1.3 billion, what is it running?" 
+  options={[
+    "Trade deficit",
+    "Trade surplus"
+  ]}
+  answerIndex={1} 
+/>
+
+<Quiz 
+  question="What policy uses taxes and government spending to influence the economy?" 
+  options={[
+    "Monetary policy",
+    "Fiscal policy",
+    "Either monetary or fiscal policy, depending on interest rates"
+  ]}
+  answerIndex={1} 
+/>
+
+<Quiz 
+  question="If the economy is booming, what happens to inflation?" 
+  options={[
+    "It rises",
+    "It falls",
+    "It remains the same"
+  ]}
+  answerIndex={0} 
+/>
+
+</details>
+
+---
+
 💡 **More questions will be added regularly!** 🎓🔥
