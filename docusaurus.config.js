@@ -4,20 +4,20 @@ import { themes as prismThemes } from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '📈 ECO 211',
+  tagline: 'Macroeconomics Notes & Practice',
   favicon: 'img/economics_logo.svg',
 
   url: 'https://eco211.erickzagal.com',
   baseUrl: '/',
 
-  organizationName: 'ezagal1004',
-  projectName: 'eco211',
-  trailingSlash: false,
+  organizationName: 'ezagal1004', // ✅ Your GitHub username
+  projectName: 'eco211', // ✅ Your GitHub repo name
+  deploymentBranch: "gh-pages", // ✅ Ensures GitHub Pages deployment
 
-  deploymentBranch: "gh-pages",
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-
 
   i18n: {
     defaultLocale: 'en',
@@ -30,13 +30,13 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          sidebarPath: require.resolve('./sidebars.js'), // ✅ Corrected path
+          editUrl: 'https://github.com/ezagal1004/eco211/edit/main/', // ✅ Updated to your repo
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: require.resolve('./src/css/custom.css'), // ✅ Corrected path
         },
+        blog: false, // ✅ Disabled blog (remove if you want a blog)
       }),
     ],
   ],
@@ -54,15 +54,21 @@ const config = {
         alt: 'Macroeconomics',
         src: 'img/economics_logo.svg',
       },
+      items: [
+        { type: 'docSidebar', sidebarId: 'chaptersSidebar', label: '📖 Notes', position: 'left' },
+        { to: '/docs/practice/', label: '❓ Practice Questions', position: 'left' },
+      ],
     },
+
+    colorMode: {
+      defaultMode: 'dark', // 🌙 Default to dark mode
+      respectPrefersColorScheme: true, // 🌐 Auto-detect system theme
+      disableSwitch: false, // 🔄 Allows theme toggling
+    },
+
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
-    },
-    colorMode: {
-      defaultMode: 'dark', // 🌙 Change 'light' to 'dark' for default dark mode
-      respectPrefersColorScheme: true, // 🌐 Auto-detect system theme
-      disableSwitch: false, // 🔄 Set to true to remove theme toggle
     },
   },
 };
