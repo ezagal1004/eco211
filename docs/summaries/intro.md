@@ -6,7 +6,6 @@ sidebar_position: 1
 
 # 📖 Macroeconomics 211 Notes
 
-
 ## 📚 Table of Contents
 
 <details>
@@ -57,4 +56,30 @@ sidebar_position: 1
 - **[Practice Questions](/docs/summaries/ch3#practice-questions)**
 </details>
 
----
+<details>
+<summary>🔹 Chapter 6: Macroeconomics - The Big Picture</summary>
+
+- **[The Nature of Macroeconomics](/docs/summaries/ch6#the-nature-of-macroeconomics)**
+   - [Micro vs. Macro Questions](/docs/summaries/ch6#key-differences-between-micro-and-macro-questions)
+
+- **[Macroeconomics as a Whole](/docs/summaries/ch6#macroeconomics-the-whole-is-greater-than-the-sum-of-its-parts)**
+
+- **[Macroeconomic Theory & Policy](/docs/summaries/ch6#macroeconomic-theory-and-policy)**
+   - [Monetary vs. Fiscal Policy](/docs/summaries/ch6#macroeconomic-policy-tools)
+   - [Great Depression vs. Great Recession](/docs/summaries/ch6#historical-comparison)
+
+- **[The Business Cycle](/docs/summaries/ch6#the-business-cycle)**
+   - [Recessions & Expansions](/docs/summaries/ch6#effects-of-recessions)
+   - [Smoothing the Business Cycle](/docs/summaries/ch6#smoothing-the-business-cycle)
+
+- **[Long-Run Economic Growth](/docs/summaries/ch6#long-run-economic-growth)**
+
+- **[Inflation & Deflation](/docs/summaries/ch6#inflation-and-deflation)**
+   - [Causes of Inflation & Deflation](/docs/summaries/ch6#causes-of-inflation-and-deflation)
+   - [Economic Effects](/docs/summaries/ch6#economic-effects)
+
+- **[International Trade & Imbalances](/docs/summaries/ch6#international-macroeconomics-and-trade-balances)**
+   - [Trade Deficit vs. Trade Surplus](/docs/summaries/ch6#determinants-of-trade-balances)
+
+- **[Practice Questions](/docs/summaries/ch6#practice-questions)**
+</details>
