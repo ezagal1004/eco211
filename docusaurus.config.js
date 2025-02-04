@@ -31,7 +31,6 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'), // ✅ Corrected path
-          editUrl: 'https://github.com/ezagal1004/eco211/edit/main/', // ✅ Updated to your repo
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'), // ✅ Corrected path
