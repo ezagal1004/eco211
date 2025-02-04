@@ -20,6 +20,11 @@ const sidebars = {
           id: 'summaries/ch3',  // Ensure 'docs/summaries/ch3.md' exists!
           label: 'Chapter 3',
         },
+        {
+          type: 'doc',
+          id: 'summaries/ch6',  // Ensure 'docs/summaries/ch6.md' exists!
+          label: 'Chapter 6',
+        },
       ],
     },
     {
